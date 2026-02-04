@@ -74,9 +74,3 @@ Based on the analysis:
 
 ---
 
-## ▶️ How to Run
-
-### 1️⃣ Clone Repository
-```bash
-git clone https://github.com/yourusername/PrimetradeAI-Assignment.git
-cd PrimetradeAI-Assignment
