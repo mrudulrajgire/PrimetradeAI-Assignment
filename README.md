@@ -2,7 +2,7 @@
 
 ## 👤 Author
 **Mrudul Rajgire**  
-Role Applied: Data Analyst / Data Intern  
+Role Applied: Data Analyst / Data Intern.
 Date: February 2026  
 
 ---
