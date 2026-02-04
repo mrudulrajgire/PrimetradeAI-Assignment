@@ -1,86 +1,82 @@
-📊 PrimetradeAI Data Analysis & Modeling Assignment
-👤 Author
+# 📊 PrimetradeAI Data Analysis & Modeling Assignment
 
-Mrudul Rajgire
-Role Applied: Data Analyst / Data Intern
-Date: February 2026
+## 👤 Author
+**Mrudul Rajgire**  
+Role Applied: Data Analyst / Data Intern  
+Date: February 2026  
 
-📌 Project Overview
+---
 
-This project focuses on analyzing trading behavior data to uncover key patterns, identify risk indicators, and build a predictive model to support data-driven business decision-making.
+## 📌 Project Overview
 
-The goal is to:
+This project analyzes trading behavior data to extract actionable insights and build a predictive model that supports data-driven business decision-making.
 
-Understand customer/trading behavior
+The objective of this assignment is to:
 
-Identify high-risk or high-impact segments
+- Perform structured exploratory data analysis (EDA)
+- Identify patterns and high-risk segments
+- Build and evaluate a machine learning model
+- Translate analytical findings into business strategy recommendations
 
-Build a machine learning model for prediction
+---
 
-Translate findings into actionable business strategies
+## 📁 Repository Structure
 
-📁 Repository Structure
-Primetradeai.ipynb  → Complete analysis notebook  
-outputs/           → Model results & visualizations  
-README.md          → Project documentation  
+Primetradeai.ipynb → Complete notebook with EDA, preprocessing, modeling & business insights  
+outputs/ → Model results, charts, and evaluation visuals  
+README.md → Project documentation  
 
-⚙️ Methodology
-1️⃣ Data Understanding & Exploration
+---
 
-Loaded and inspected dataset structure
+## ⚙️ Methodology
 
-Checked data types and missing values
+### 1️⃣ Data Understanding & Exploration
+- Inspected dataset shape, data types, and summary statistics
+- Checked for missing values and inconsistencies
+- Performed exploratory data analysis to identify trends and correlations
 
-Performed descriptive statistical analysis
+### 2️⃣ Data Preprocessing
+- Handled missing/null values
+- Encoded categorical variables (where required)
+- Performed feature selection and transformation
+- Applied train-test split for proper evaluation
 
-Conducted Exploratory Data Analysis (EDA) to identify patterns and correlations
+### 3️⃣ Model Development
+- Implemented machine learning model for prediction
+- Evaluated performance using relevant metrics
+- Interpreted feature importance for business understanding
 
-2️⃣ Data Preprocessing
+### 4️⃣ Model Evaluation
+Model performance was evaluated using:
+- Accuracy / RMSE / F1 Score / AUC (as applicable)
+- Confusion Matrix analysis
+- Comparative performance insights (if multiple models tested)
 
-Handled missing/null values
+---
 
-Encoded categorical variables (if applicable)
+## 📈 Key Insights
 
-Feature selection and transformation
+- Certain behavioral features strongly influence trading outcomes.
+- High-risk profiles display distinct transaction patterns.
+- A smaller segment of users contributes significantly to overall trading activity.
+- Feature importance analysis highlights the most impactful predictors in the model.
 
-Train-test split for model evaluation
+---
 
-3️⃣ Model Building
-
-Implemented machine learning model(s)
-
-Evaluated performance using appropriate metrics
-
-Compared model effectiveness (if multiple models used)
-
-4️⃣ Model Evaluation
-
-Evaluation metrics used:
-
-Accuracy / RMSE / F1 Score / AUC (as applicable)
-
-Confusion matrix analysis
-
-Feature importance interpretation
-
-📈 Key Insights
-
-Certain features significantly influence trading behavior and risk outcomes.
-
-High-risk segments show distinct behavioral patterns compared to low-risk users.
-
-A small percentage of users contribute disproportionately to trading volume.
-
-Feature importance analysis highlights the most impactful variables for prediction.
-
-🚀 Strategy Recommendations
+## 🚀 Strategy Recommendations
 
 Based on the analysis:
 
-Implement risk-based segmentation to proactively monitor high-risk profiles.
+- Implement risk-based segmentation to monitor high-risk profiles proactively.
+- Use predictive scoring to support trading decision systems.
+- Focus on high-value user retention strategies.
+- Introduce early-warning systems for abnormal trading behavior.
 
-Introduce targeted interventions for vulnerable trading segments.
+---
 
-Optimize decision-making by leveraging predictive scoring models.
+## ▶️ How to Run
 
-Focus on high-value customer retention strategies to maximize revenue impact.
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/yourusername/PrimetradeAI-Assignment.git
+cd PrimetradeAI-Assignment
