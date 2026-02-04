@@ -159,6 +159,6 @@ Based on the analysis:
 ### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/yourusername/PrimetradeAI-Assignment.git
-cd PrimetradeAI-Assignment
+cd Primetradeai-Assignment
 
 
